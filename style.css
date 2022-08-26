@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 @font-face {
   font-family: "fontello";
   src: url("font/fontello.eot?78557957");
@@ -91,15 +91,54 @@ nav #logox {
   color: black;
   font-weight: 600;
 }
+.container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container h1 {
+  background-color: #556273;
+  padding: 0.4rem;
+  border-radius: 1rem;
+  display: inline;
+  color: white;
+  font-size: 1rem;
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 1.5px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+div #yorum {
+  font-size: 1rem;
+  background-color: #556273;
+  padding: 0.4rem;
+  border-radius: 1rem;
+  display: inline;
+  color: white;
+  letter-spacing: 1.5px;
+  font-family: "Dancing Script", cursive;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
 .header {
-  position: absolute;
-  max-width: 50%;
+  max-width: 75%;
   padding: 50px;
   background: rgba(255, 255, 255, 0.6);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  font-weight: 650;
+  font-weight: 450;
   font-family: "Dancing Script", cursive;
 }
+.comment {
+  font-family: "Dancing Script", cursive;
+  max-width: 75%;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  margin: 1rem;
+}
+
 @media screen and (min-width: 0px) and (max-width: 600px) {
   .navbar {
     flex-direction: column;
@@ -108,7 +147,6 @@ nav #logox {
     text-align: center;
   }
   .header {
-    position: fixed;
     text-align: center;
     display: inline-block;
   }
