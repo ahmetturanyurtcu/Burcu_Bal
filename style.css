@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300&display=swap");
+
 @font-face {
   font-family: "fontello";
   src: url("font/fontello.eot?78557957");
@@ -106,7 +108,8 @@ nav #logox {
   display: inline;
   color: white;
   font-size: 1rem;
-  font-family: "Dancing Script", cursive;
+  font-family: "Noto Serif TC", serif;
+
   letter-spacing: 1.5px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
@@ -118,7 +121,8 @@ div #yorum {
   display: inline;
   color: white;
   letter-spacing: 1.5px;
-  font-family: "Dancing Script", cursive;
+  font-family: "Noto Serif TC", serif;
+
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .header {
@@ -127,10 +131,11 @@ div #yorum {
   background: rgba(255, 255, 255, 0.6);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   font-weight: 450;
-  font-family: "Dancing Script", cursive;
+  font-family: "Noto Serif TC", serif;
 }
 .comment {
-  font-family: "Dancing Script", cursive;
+  font-family: "Noto Serif TC", serif;
+
   max-width: 75%;
   padding: 50px;
   background: rgba(255, 255, 255, 0.6);
