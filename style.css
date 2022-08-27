@@ -150,6 +150,8 @@ div #yorum {
     flex-wrap: wrap;
     /* align-items:center; */
     text-align: center;
+    width: 63.33%;
+    margin: 0 auto;
   }
   .header {
     text-align: center;
