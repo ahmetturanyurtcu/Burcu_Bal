@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 
 @font-face {
   font-family: "fontello";
@@ -47,7 +48,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: #556273;
+  background-color: #2d0b00;
   margin-bottom: 1rem;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -59,10 +60,11 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   text-decoration: none;
-  color: #f2f2f2;
+  color: #fff0eb;
   padding: 1rem 1.5rem;
   transition: all ease-in-out 0.3s;
   border-radius: 20px;
+  font-family: "Nunito", sans-serif;
 }
 
 .navbar a:hover {
@@ -99,46 +101,48 @@ nav #logox {
   text-align: center;
   font-family: "Dancing Script", cursive;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .container h1 {
-  background-color: #556273;
+  background-color: #2d0b00;
   padding: 0.4rem;
-  border-radius: 1rem;
+  border-radius: 1.1rem 0.12rem;
   display: inline;
   color: white;
   font-size: 1rem;
-  font-family: "Noto Serif TC", serif;
-
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
   letter-spacing: 1.5px;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px,
+    rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
 }
 div #yorum {
   font-size: 1rem;
-  background-color: #556273;
+  background-color: #2d0b00;
   padding: 0.4rem;
-  border-radius: 1rem;
+  border-radius: 1.1rem 0.12rem;
   display: inline;
   color: white;
+  font-weight: 100;
   letter-spacing: 1.5px;
-  font-family: "Noto Serif TC", serif;
-
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  font-family: "Nunito", sans-serif;
+  letter-spacing: 1.5px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px,
+    rgba(255, 255, 255, 0.25) 0px 1px 0px in;
 }
 .header {
-  max-width: 75%;
+  width: 80%;
   padding: 50px;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.9);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   font-weight: 450;
   font-family: "Noto Serif TC", serif;
 }
 .comment {
   font-family: "Noto Serif TC", serif;
-
   max-width: 75%;
   padding: 50px;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.9);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   font-weight: 400;
   margin: 1rem;
@@ -150,12 +154,13 @@ div #yorum {
     flex-wrap: wrap;
     /* align-items:center; */
     text-align: center;
-    width: 63.33%;
+    width: 40%;
     margin: 0 auto;
   }
   .header {
     text-align: center;
     display: inline-block;
+    width: 100%;
   }
   #logox {
     display: none;
